@@ -13,3 +13,6 @@ Include the files used
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+### Refactoring Task List
+-[x] print command line 76 fixed 8/1/2019
+-[ ] review rest of code for optimization
