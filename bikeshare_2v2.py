@@ -85,6 +85,16 @@ def get_time_period():
 # determine what month will be analyzed or if all months will be analyzed
 
 def what_month(m):
+
+    """
+    Defines the month to perform the statistical analysis in
+
+
+    Args:
+        none
+    Returns:
+        (str) time filter for the period of statistics to be run on
+    """
     if m =='month':
         month = input('\nEnter in the full month name for analysis [ie.January]\n ')
         while month.strip().lower() not in ['january', 'february', 'march', 'april', 'may', 'june']:
@@ -325,7 +335,8 @@ def main():
         for x in stats_funcs_list:
             process(x, df)
 
-
+        # restart option
+            
         restart = input("\n Would you like to restart? Enter 'yes' or 'no'.\n")
         if restart.lower() != 'yes':
             break
