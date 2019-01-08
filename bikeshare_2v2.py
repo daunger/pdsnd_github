@@ -73,7 +73,7 @@ def get_time_period():
                     print('\n The data will be filtered by month and day of month\n')
                     return 'day_of_month'
         if period == "day":
-            print('\The data will be filtered by the day of the week\n')
+            print('\n The data will be filtered by the day of the week\n')
             return 'day_of_week'
         elif period == "no":
             print('\n No filter for the time period will be applied\n')
