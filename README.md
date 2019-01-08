@@ -32,3 +32,6 @@ washington.csv
 https://github.com/atom/markdown-preview/blob/master/README.md
 
 https://guides.github.com/features/mastering-markdown/
+
+### Known Bugs
+08/01/2019: There are no known bugs
